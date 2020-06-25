@@ -1,0 +1,19 @@
+{
+    "name": "bjit/bjit-sns-linkedin",
+    "description": "LinkedIn authentication library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mahabub.mollah",
+            "email": "mahabub.mollah@bjitgroup.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BJIT\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
