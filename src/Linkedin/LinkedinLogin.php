@@ -23,7 +23,7 @@ class LinkedinLogin
         $url = $this->auth_url.'?response_type=code&client_id='.$this->client_id.'&redirect_uri='.$this->redirect_url.'&scope=r_liteprofile%20r_emailaddress';
         return $url;
     }
-    //This will provide  access tokent with expiry time
+    //This will provide  access token with expiry time
     public function getAccesstoken($code){
         $curl = curl_init();
         curl_setopt_array($curl, array(
